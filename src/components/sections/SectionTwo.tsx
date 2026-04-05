@@ -148,7 +148,12 @@ export default function SectionTwo() {
               <p className="ds-s2-offer-left">{offer.left}</p>
               <div className="ds-s2-offer-title-wrap">
                 <p className="ds-s2-offer-title">{offer.title}</p>
-                <span className="ds-s2-offer-arrow">→</span>
+                <span
+                  className="ds-s2-offer-arrow"
+                  style={{ cursor: "pointer" }}
+                >
+                  →
+                </span>
               </div>
             </div>
           ))}
