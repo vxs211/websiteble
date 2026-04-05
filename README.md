@@ -1,5 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Docker
+
+The project is set up to run with Docker only.
+
+Build the image:
+
+```bash
+docker build -t websiteble .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 3000:3000 websiteble
+```
+
+Or use Docker Compose:
+
+```bash
+docker compose up --build
+```
+
 ## Getting Started
 
 First, run the development server:
